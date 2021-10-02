@@ -12,7 +12,12 @@
     "xlsx": "^0.17.2"
   },
   "devDependencies": {
-   "ts-node": "*",
-   "typescript": "^4.3.2"
+    "@types/node": "^16.10.2",
+    "@typescript-eslint/parser": "^4.32.0",
+    "node": "^16.10.0",
+    "prettier": "^2.4.1",
+    "promise": "^8.1.0",
+    "ts-node": "*",
+    "typescript": "^4.3.2"
   }
 }
