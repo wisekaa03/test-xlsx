@@ -1,6 +1,7 @@
 # test-xlsx
 
 Да, нужно подправить в xlsx:
+```
 /** Chase down the rest of the DIFAT chain to build a comprehensive list
     DIFAT chains by storing the next sector number as the last 32 bits */
 function sleuth_fat(idx, cnt, sectors, ssz, fat_addrs) {
@@ -18,3 +19,4 @@ function sleuth_fat(idx, cnt, sectors, ssz, fat_addrs) {
                 sleuth_fat(__readInt32LE(sector,ssz-4),cnt - 1, sectors, ssz, fat_addrs);
         }
 }
+```
